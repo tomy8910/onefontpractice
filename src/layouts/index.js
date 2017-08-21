@@ -147,10 +147,13 @@ const Header = () =>
 const TemplateWrapper = ({ children }) =>
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Practice One Font with Georgia"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        {
+          name: 'description',
+          content: 'A website that exhibits one font prowess.'
+        },
+        { name: 'keywords', content: 'georgia, one font, practice' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
       ]}
     />
